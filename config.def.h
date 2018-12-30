@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "DejaVu Sans Mono:size=10:antialias=true:hinting=true:hintstyle=hintfull";
+static char *font = "DejaVu Sans Mono:size=12:antialias=true:hinting=true:hintstyle=hintfull";
 static int borderpx = 2;
 
 /*
@@ -110,8 +110,8 @@ static const char *colorname[] = {
 	[255] = 0,
 
 	/* more colors can be added after 255 to use with DefaultXX */
-	"#fff8e0",
-	"#333333",
+	"#000055",
+	"#55aaff",
 	"#55aaff",
 	"#aa5500",
 };
