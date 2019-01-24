@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "DejaVu Sans Mono:size=12:antialias=true:hinting=true:hintstyle=hintfull";
+static char *font = "Monaco Nerd Font Mono:size=12:weight=bold:antialias=true:hinting=false:hintstyle=hintnone";
 static int borderpx = 2;
 
 /*
@@ -83,7 +83,7 @@ char *termname = "st-256color";
 unsigned int tabspaces = 8;
 
 /* bg opacity */
-unsigned int alpha = 0xee;
+unsigned int alpha = 0xcc;
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
@@ -110,8 +110,8 @@ static const char *colorname[] = {
 	[255] = 0,
 
 	/* more colors can be added after 255 to use with DefaultXX */
-	"#000055",
-	"#55aaff",
+	"#222222",
+	"#aaaaaa",
 	"#55aaff",
 	"#aa5500",
 };
